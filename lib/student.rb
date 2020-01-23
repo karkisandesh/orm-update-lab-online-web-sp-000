@@ -44,14 +44,10 @@ class Student
   end
   
   def self.create(name, grade)
-    if self.id 
-      self.update
-    else
       student = self.new(name, grade)
       student.save
       student
-    end
-  end
+     end
   
   
 
