@@ -72,7 +72,7 @@ class Student
   def udpate
     sql = <<-SQL UPDATE students SET
     name = ?,
-    grade = ?, 
+    grade = ?
     WHERE id = ?
     SQL
     DB[:conn].execute(sql, self.name, self.grade, self.id)
