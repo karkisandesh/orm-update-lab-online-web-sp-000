@@ -70,7 +70,8 @@ class Student
   end
    
   def udpate
-    sql = <<-SQL UPDATE students SET
+    sql = <<-SQL
+    UPDATE students SET
     name = ?,
     grade = ?
     WHERE id = ?
