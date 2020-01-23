@@ -22,6 +22,7 @@ class Student
       NAME TEXT,
       GRADE TEXT)
     SQL
+    DB[:conn].execute
   end
 
 
