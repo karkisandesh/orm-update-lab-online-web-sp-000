@@ -14,6 +14,12 @@ class Student
    @grade = grade
  end
     
+    
+  def self.create_table
+    sql = <<-SQL 
+      CREATE 
+    SQL
+  end
 
 
 end
