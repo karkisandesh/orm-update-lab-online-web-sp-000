@@ -69,7 +69,7 @@ class Student
     end.first
   end
    
-  def udpate
+  def update
     sql = <<-SQL
     UPDATE students SET
     name = ?,
