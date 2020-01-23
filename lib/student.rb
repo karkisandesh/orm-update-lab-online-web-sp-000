@@ -69,5 +69,8 @@ class Student
     end.first
   end
    
+   def udpate
+     
+   end
 
 end
